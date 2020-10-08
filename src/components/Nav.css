@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  z-index: 1000;
+  transition: all ease-in 0.5s;
+}
+
+.nav_black {
+  background-color: black;
+}
+
+.logo {
+  height: 3.6rem;
+}
+
+.login {
+  height: 2.3rem;
+  margin-top: 0.6rem;
+}
